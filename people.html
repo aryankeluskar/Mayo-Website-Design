@@ -1,39 +1,84 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <!-- Website by Aryan and Rohit of The HPSB (Hyderabad Public School, Begumpet) -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Key People involved in Internet Freedom</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>People involved in Internet Freedom</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="stylepeople.css" />
 </head>
 
 <body>
-    <div id="heading">
-        <button style="background-color: rgb(84,213,254);">
-            <img src="ham-menu.png" alt="" style="width: 3em;height: 3em;top: 0;left: 0;"></button>
-        <h2 id="head" style="text-align:center;">Key People involved in Internet Freedom</h2>
+    <div class="header">
+        <h1 class="logo">Internet Freedom and Rights</h1>
+        <input id="navtoggle" type="checkbox" class="navtoggle" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Key People</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="linuxubuntu.html">Open Source Software</a></li>
+            </ul>
+        </nav>
+        <label for="navtoggle" class="navtogglelabel">
+        <span></span>
+      </label>
     </div>
-    <div id="content">
-        <a href="/richard.html">
-            <div class="person" id="richard">
-                <img src="img/richard.jpg" alt="">
-                <span>Richard Stallman</span>
+    <div class="container">
+        <div class="cards">
+            <div class="imgBx">
+                <img src="richard.jpg" alt="Richard Stallman" />
             </div>
-        </a>
-        <a href="/julian.html">
-            <div class="person" id="julian">
-                <img src="img/julian.jpg" alt="">
-                <span>Julian Assange</span>
-            </div>
-        </a>
-        <a href="/edward.html">
-            <div class="person" id="edward">
-                <img src="img/edward.jpg" alt="">
-                <span>Edward Snowden</span>
-            </div>
-        </a>
-    </div>
-</body>
+            <div class="content">
+                <div class="details">
+                    <h2>
+                        Richard Stallman<br /><span>Computer Programmer and free softwware movement activist</span
+              >
+            </h2>
+            <a href="richard.html" target="blank"
+              ><button>Learn More</button></a
+            >
+          </div>
+        </div>
+      </div>
 
+      <div class="cards">
+        <div class="imgBx">
+          <img src="julian.jpg" alt="Julian Assagne" />
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>
+              Julian Assagne<br /><span
+                >Australian Editor, Publisher, activist and Founder of
+                WikiLeaks</span
+              >
+            </h2>
+            <a href="julian.html" target="blank"><button>Learn More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="imgBx">
+          <img src="edward.jpg" alt="Edward Snowman" />
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>
+              Edward Snowman<br /><span
+                >Journalist, computer intelligence consultant and leaker of NSA
+                classified files</span
+              >
+            </h2>
+            <a href="edward.html" target="blank"><button>Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
